@@ -1,0 +1,2 @@
+staticfiles/admin/* linguist-vendored
+staticfiles/debug_toolbar/* linguist-vendored

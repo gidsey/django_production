@@ -1,0 +1,18 @@
+h1 {
+    color: #a41515;
+}
+
+.bookcover {
+    height: 300px;
+    width: auto;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+.author {
+    font-style: italic;
+    color: #5b80b2;
+    margin-left: 6px;
+}

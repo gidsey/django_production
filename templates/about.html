@@ -1,0 +1,20 @@
+{% extends '_base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+    <h1>About this website</h1>
+
+    <h3>Production setup</h3>
+    <ul>
+        <li><a href="https://www.djangoproject.com/" target="_blank">Django</a>
+            running on <a href="https://www.docker.com/pos" target="_blank">Docker</a>
+            with <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a></li>
+        <li><a href="https://sendgrid.com/" target="_blank">SendGrid</a> email integration</li>
+        <li><a href="https://stripe.com/gb" target="_blank">Stripe</a> credit card payment integration</li>
+        <li>Media files hosted on <a href="https://aws.amazon.com/s3/" target="_blank">AWS S3</a></li>
+        <li><a href="http://whitenoise.evans.io/en/stable/" target="_blank">WhiteNoise</a> serving static image files</li>
+        <li>Unit tests</li>
+    </ul>
+    <p>August 2020</p>
+{% endblock %}

@@ -1,0 +1,13 @@
+.idea
+media
+_design_reference
+.DS_Store
+Readme.txt
+docker-compose.yml
+docker-compose-prod.yml
+
+
+
+
+
+
