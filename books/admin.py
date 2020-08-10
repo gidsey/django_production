@@ -2,6 +2,8 @@ from django.contrib import admin
 
 from .models import Book, Review
 
+admin.site.site_header = 'Obscure Headland Books - Admin Area'
+
 
 class ReviewInline(admin.TabularInline):
     model = Review
