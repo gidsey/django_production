@@ -29,7 +29,7 @@ DEBUG = int(os.environ.get('DEBUG', default=0))
 # Get the SendGrid API key
 SENDGRID_API_KEY = os.getenv('SENDGRID_API_KEY')
 
-ALLOWED_HOSTS = ['obscure-headland-16763.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['obscure-headland.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
