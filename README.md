@@ -1,5 +1,7 @@
 # Bookstore Project
 
+## *** THIS PROJECT IS NOW ARCHIVED ***
+
 Production setup example for:
 
 * Python 
